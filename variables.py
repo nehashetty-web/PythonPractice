@@ -9,3 +9,18 @@ Create a class with one static variable and one instance variable. Create two ob
 Create a class using __init__() with two instance variables. Create three objects and 
 change one variable of one object. Print all object values.'''
 "solutions"
+class Dog:
+    colour="brown"
+    def __init__(self, name, colour):
+        self.name = name
+        self.colour = colour
+
+d1 = Dog("Tommy", "Brown")
+d2 = Dog("Rocky", "Black")
+
+# Change variable of d1
+d1.colour = "White"
+Dog.colour = "pink"
+print(d1.name, d1.colour)
+print(d2.name, d2.colour)
+print(Dog.colour)
