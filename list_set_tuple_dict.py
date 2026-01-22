@@ -16,3 +16,20 @@ count=num.count(4)
 print(count)
 index=num.index(8)
 print(index)
+
+'''# Write code to create a dictionary with name and age
+python
+Copy code
+# Write code to add a new key "marks" to a dictionary
+python
+Copy code
+# Write code to update the value of an existing key in a dictionary
+python
+Copy code
+# Write code to delete a key from a dictionary'''
+name=['neha','bappa','guru']
+age=['12','34','85']
+data=dict(zip(name,age))
+print (data)
+del data['neha']
+print (data)
