@@ -1,18 +1,23 @@
-def fib(n):
-    if n == 0:
-        return 0
-    elif n == 1:
-        return 1
-    else:
-        return fib(n-1) + fib(n-2)
+def outer():
+    def inner():
+        print("I am inner")
+    inner()
 
-print(fib(5))
-def fib(n):
-    if n == 0:
-        return 0
-    elif n == 1:
-        return 1
-    else:
-        return fib(n-1) + fib(n-2)
+outer()
 
-print(fib(5))
+x = 5
+
+def outer():
+    x = 10
+    def inner():
+        print(x)
+    inner()
+
+outer()
+n=int(input("enter num:"))
+def fact(n):
+    if n==0:
+        return 1
+    return n*fact(n-1)
+result=fact(n)
+print(result)
