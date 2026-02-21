@@ -14,13 +14,57 @@ def print_numbers(n):
 num = int(input("Enter number: "))
 print_numbers(num)
 def largest(num1,num2):
- 
+
    if num1>num2:
     return(num1)
    elif num2>num1:
     return(num2)
+   
 
- 
 num1=int(input("Value1"))
 num2=int(input("value2"))
 print(largest(num))
+def analyze_text(s):
+    vowels = 0
+    consonants = 0
+    total_chars = 0
+    
+    for ch in s:
+        if ch != " ":
+            total_chars += 1
+            
+        if ch.lower() in "aeiou":
+            vowels += 1
+            
+        elif ch.isalpha():
+            consonants += 1
+def count_vowels(s):
+   count=0
+   for ch in s: 
+      if ch.lower() in "aeiou":
+         count +=1
+   return count
+def find_max(lst):
+   max=lst[0]
+   if num > max :
+      max += 1
+   else:
+        return max
+def count_even(lst):
+   count=0
+   for num in list:
+      if num%2==0:
+         count += 1
+   return count   
+def sum_positive(lst):
+   count=0
+   for num in lst:
+      if num>0:
+         count +=1
+   return count    
+def contains_negative(lst):
+   for num in lst:
+      if num <0:
+         return True
+      else:
+         return False
