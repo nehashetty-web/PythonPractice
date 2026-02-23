@@ -68,3 +68,12 @@ def contains_negative(lst):
          return True
       else:
          return False
+class car:
+   def __init__(self,brand,speed):
+      self.brand=brand
+      self.speed=speed
+c1=car("bmw",60)
+c2=car("lambo",90)
+
+print(c1.brand)
+print(c2.speed)
