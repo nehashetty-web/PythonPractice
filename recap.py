@@ -32,3 +32,22 @@ print(quot)
 
 a=10
 print(type(a))
+'''1️Function to find square of a number
+2️ Function to check positive or negative
+3️ Function to find minimum of two numbers
+4️ Function to calculate average of 3 numbers'''
+def square(n):
+      return (n**2)
+def positive_negative(n):
+    if n >0:
+        print("n is positive")
+    else:
+         print("n is negative")
+def numbers_info(a, b):
+    if a>b:
+        print(a)
+    else:
+        print(b)
+
+    return (a+b)
+    return (a+b+c)/3
