@@ -37,3 +37,20 @@ def linear_serach(arr,target):
     print("not found")
 arr = [6, 2, 9, 15, 3] 
 linear_serach(arr,100)
+def reverse_array(arr):
+    left=0
+    right=len(arr)-1
+    while left < right :
+        arr[left],arr[right]=arr[right],arr[left]
+        left=left+1
+        right=right-1
+    arr = [5, 8, 2, 9, 1]
+
+reverse_array(arr)
+print(arr)
+def print_demo(n):
+    if n==0:
+        return
+    print(n)
+    print_demo(n-1)
+print_demo(5)
