@@ -54,3 +54,29 @@ def print_demo(n):
     print(n)
     print_demo(n-1)
 print_demo(5)
+
+def factorial(n):
+    if n==0:
+        return 1
+    return n*factorial(n-1)
+print(factorial(6))
+
+def sum(n):
+    if n==0:
+        return 1
+    return n+sum(n-1)
+print(sum(6))
+
+def fibonnaci(n):
+    if n==0: 
+        return 0
+    if n==1:
+        return 1
+    return fibonnaci(n-1)+fibonnaci(n-2)
+print(fibonnaci(34)) 
+
+def reverse(s):
+    if s=="": 
+        return s
+    return reverse (s[1:])+s[0]
+print(reverse("hello"))
