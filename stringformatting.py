@@ -32,3 +32,22 @@ for i in range(len(s)):
         sub=s[i:j]
     if sub==sub[::-1] and len(sub) > 1:
         print(sub)
+
+
+s="gurucharan"
+print(s[0]) 
+print(s[-1])
+print(s[0:5])
+
+s="python"
+print(s[1:4])
+
+
+s="PYTHON PROGRAMMING"
+print(s.lower())
+
+s="python programming"
+print(s.upper())
+
+s="AM LEARNING PYTHON "
+print(s.split())
