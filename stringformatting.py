@@ -50,4 +50,21 @@ s="python programming"
 print(s.upper())
 
 s="AM LEARNING PYTHON "
-print(s.split())
+print(s.split()) 
+
+def char_frequency(s):
+    freq={}
+    for ch in s:
+        if ch in freq:
+            freq[ch]+=1
+        else:
+            freq[ch]=1
+    print(freq)
+char_frequency("lovely") 
+
+def check_anagram(s1,s2):
+    if sorted(s1)==sorted(s2):
+        print("its anagram")
+    else:
+        print("not anagram")
+check_anagram("race","care")
