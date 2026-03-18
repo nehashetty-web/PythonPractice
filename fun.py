@@ -39,4 +39,4 @@ def employee_info(name,salary):
     print(employee_info("neha"))
     print(total_salary)
     print(tax)
-employee_info("neha",30000)
+employee_info("neha",890990)
