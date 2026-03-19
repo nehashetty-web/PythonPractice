@@ -31,12 +31,13 @@ def greetings():
     print(message)
 greetings()
 company="techcrop"
-def employee_info(name,salary):
-    bonus=2000
-    total_salary=salary+bonus
-    tax=lambda salary: salary//10
-    print(company)
-    print(employee_info("neha"))
-    print(total_salary)
-    print(tax)
-employee_info("neha",890990)
+
+def checking(a,b):
+    try:
+        result=a/b
+        print(result)
+    except:
+        print("unable to divide")
+checking(100,20)
+checking(100,0)
+
