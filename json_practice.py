@@ -16,3 +16,4 @@ data=json.load(file)
 file.close()
 
 print(data["location"])
+
