@@ -17,3 +17,6 @@ c.speak()
 animals=[dog(),cat(),animal()]
 for a in animals:
     a.speak()
+
+
+
