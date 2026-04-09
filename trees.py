@@ -12,3 +12,5 @@ print(root.data)
 print(root.left.data)
 print(root.right.data)
 
+print("tree traversal")
+
