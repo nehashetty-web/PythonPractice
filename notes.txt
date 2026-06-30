@@ -1,0 +1,3 @@
+Hey, this is Neha’s first file!
+Learning Python is fun.
+Appending new line to existing file.
